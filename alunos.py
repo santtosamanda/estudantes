@@ -6,7 +6,7 @@ def sexo (dados):
     else:
       masculino.append(dado)
 
-def agenda (feminino, masculino):
+def alunos (feminino, masculino):
   if(len(feminino)):
     x = '\nLista das alunas'
     print('-' * len(x))
@@ -37,4 +37,4 @@ while dados['nome'].upper() != 'SAIR':
   
 lista_alf = sorted(lista, key=lambda x: x['nome'])
 sexo(dados)
-agenda(feminino, masculino)
+alunos(feminino, masculino)
